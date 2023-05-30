@@ -1,10 +1,16 @@
+import React from "react";
+import NavBar from "./components/NavBar/NavBar";
+import Gig from "./pages/gig/Gig";
+
 function App() {
 
   return (
     <div>
-      Hello world!
+      
+      <NavBar/>
+     
     </div>
-  )
+  );
 }
 
 export default App
