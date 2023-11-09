@@ -4,6 +4,9 @@
     flex-direction: column;
     background-color: #013914;
     color: white;
+    transition: 0.5s all ease;
+    position: sticky;
+    top: 0;
 
     &.active {
         background-color: white;
